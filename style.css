@@ -1,4 +1,4 @@
-*{
+ *{
     margin: 0%;
     padding: 0%;
     font-family: 'poppins', sans-serif;
@@ -102,6 +102,7 @@ body{
     .card{
         width: 85%;
         max-width: 470px;
+         
         box-shadow: 10px 10px 20px #27262667;
     }
     .search{
@@ -111,7 +112,7 @@ body{
         justify-content: space-between;
     }
     .search input{
-        width: 75%;
+        width: 100%;
     }
     .search button{
         width: 55px;
@@ -134,6 +135,10 @@ body{
     }
     .details{
         margin-top: 33px;
+    }
+    .col{
+        width: 100%;
+        margin:0 11px;
     }
     .col p{
         font-size: 11px;
