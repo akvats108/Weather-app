@@ -24,6 +24,9 @@ body{
     align-items: center;
     justify-content: space-between;
 }
+ input::placeholder{
+        font-size: 11px;
+    }
 .search input{
     border: 0;
     outline: 0;
